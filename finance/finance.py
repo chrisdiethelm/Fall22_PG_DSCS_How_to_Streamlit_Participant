@@ -103,7 +103,7 @@ create_visualization(y_test, y_pred).show()
 
 
 
-### Model 3: DirRec XGBoost
+### Model 2: DirRec XGBoost
 from sklearn.multioutput import RegressorChain
 
 model = RegressorChain(XGBRegressor())
